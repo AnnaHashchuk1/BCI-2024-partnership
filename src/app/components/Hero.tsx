@@ -9,24 +9,28 @@ export default function Hero() {
                 width={449}
                 height={313}
                 alt=" "
+                className="rounded-[10px]"
             />
             <Image
                 src="/SliderPhoto2.png"
                 width={449}
                 height={313}
                 alt=" "
+                className="rounded-[10px]"
             />
             <Image
                 src="/SliderPhoto3.png"
                 width={449}
                 height={313}
                 alt=" "
+                className="rounded-[10px]"
             />
             <Image
                 src="/SliderPhoto4.png"
                 width={449}
                 height={313}
                 alt=" "
+                className="rounded-[10px]"
             />
         </div>
     </section>
