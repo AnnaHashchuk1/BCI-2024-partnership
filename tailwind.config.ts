@@ -9,10 +9,16 @@ const config = {
   prefix: "",
   theme: {
     extend: {
+      backgroundImage: {
+        'element': "url('/public/Statistics1.png')",
+      },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       colors: {
-        "hack-green": "#3BAF0B",
-        "hack-gray": "#426466",
-        "hack-light-green": "#B4FF95",
+        "bci-purple": "#945DBD",
+        "bci-white": "#F0EFF0",
+        "bci-gray": "#1E1E1E",
       },
     },
   },
