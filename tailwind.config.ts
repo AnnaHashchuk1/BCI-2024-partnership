@@ -9,6 +9,9 @@ const config = {
   prefix: "",
   theme: {
     extend: {
+      rotate: {
+        '20': '20deg',
+      },
       backgroundImage: {
         'element': "url('/public/Statistics1.png')",
       },
