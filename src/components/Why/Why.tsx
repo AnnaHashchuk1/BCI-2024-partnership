@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./Why.scss";
 import { WhyPoint, WhyPointProps } from "./WhyPoint";
 
-export function Why() {
+export default function Why() {
   const whyArguments: WhyPointProps[] = [
     {
       idx: 1,
