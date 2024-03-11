@@ -1,5 +1,6 @@
 import About from "@/components/About/About";
 import Collaboration from "@/components/Collaboration";
+import Contacts from "@/components/Contacts/Contacts";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Why />
       <Statistics />
       <Collaboration />
+      <Contacts />
       <Footer />
     </main>
   );
