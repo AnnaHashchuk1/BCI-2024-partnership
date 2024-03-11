@@ -11,9 +11,7 @@ const config = {
     extend: {
       rotate: {
         '20': '20deg',
-      },
-      backgroundImage: {
-        'element': "url('/public/Statistics1.png')",
+        '27': '27deg',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
@@ -22,6 +20,15 @@ const config = {
         "bci-purple": "#945DBD",
         "bci-white": "#F0EFF0",
         "bci-gray": "#1E1E1E",
+        "bci-light-gray": "#9F9F9F",
+      },
+      boxShadow: {
+        'normal-light': '0 0 20px 0 rgba(240, 239, 240, 0.5)',
+        'normal-dark': '0 5px 5px 0 rgba(30, 30, 30, 0.3)',
+      },
+      scale: {
+        '140': '1.4',
+        '200': '2',
       },
     },
   },

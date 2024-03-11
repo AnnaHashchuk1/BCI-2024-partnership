@@ -1,16 +1,19 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Test from "@/components/Test";
 import { Why } from "@/components/Why/Why";
+import Footer from "@/components/Footer";
+import Statistics from "@/components/Statistics";
+import Collaboration from "@/components/Collaboration";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden">
-      <Header />
+      <Header/>
       <Hero />
       <Why />
-      <Test />
+      <Statistics />
+      <Collaboration />
       <Footer />
     </main>
   );
