@@ -4,7 +4,9 @@ import Contacts from "@/components/Contacts/Contacts";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Roadmap from "@/components/Roadmap";
 import Partners from "@/components/Partners";
+
 import Statistics from "@/components/Statistics";
 import Why from "@/components/Why/Why";
 
@@ -17,7 +19,11 @@ export default function Home() {
       <Why />
       <Statistics />
       <Collaboration />
+
+      <Roadmap />
+
       <Partners />
+      
       <Contacts />
       <Footer />
     </main>
