@@ -1,15 +1,36 @@
 import Image from "next/image";
-import { LiaTelegram } from "react-icons/lia";
+import {
+  LiaFacebook,
+  LiaInstagram,
+  LiaLinkedin,
+  LiaTelegram,
+} from "react-icons/lia";
 
 interface iSocial {
   href: string;
+  icon?: JSX.Element;
 }
+const commonIconProps = {
+  className: "h-10 w-10 text-white",
+};
 
 const socials: iSocial[] = [
-  { href: "https://t.me/bestlviv" },
-  { href: "https://www.linkedin.com/company/bestlviv/" },
-  { href: "https://www.instagram.com/best_lviv/" },
-  { href: "https://www.facebook.com/BEST.Lviv/" },
+  {
+    href: "https://t.me/bestlviv",
+    icon: <LiaTelegram {...commonIconProps} />,
+  },
+  {
+    href: "https://www.linkedin.com/company/bestlviv/",
+    icon: <LiaLinkedin {...commonIconProps} />,
+  },
+  {
+    href: "https://www.instagram.com/best_lviv/",
+    icon: <LiaInstagram {...commonIconProps} />,
+  },
+  {
+    href: "https://www.facebook.com/BEST.Lviv/",
+    icon: <LiaFacebook {...commonIconProps} />,
+  },
 ];
 
 export default function Footer() {
@@ -30,7 +51,7 @@ export default function Footer() {
           {socials.map((social, index) => {
             return (
               <a href={social.href} key={index}>
-                <LiaTelegram className="h-10 w-10 text-white" />
+                {social.icon}
               </a>
             );
           })}
