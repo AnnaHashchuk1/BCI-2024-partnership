@@ -23,7 +23,9 @@ export default function ContactsItem({ teammate }: ContactsItemProps) {
       <div className="rounded-2xl bg-bci-white">
         <div className="p-3 text-sm md:text-xl text-bci-gray">
           <p>{teammate.name}</p>
-          <p>{teammate.number}</p>
+          <a href={`tel:${teammate.number}`}>
+            <p>{teammate.number}</p>
+          </a>
           <a className="underline" href={`mailto:${teammate.email}`}>
             {teammate.email}
           </a>

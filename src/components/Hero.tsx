@@ -39,7 +39,7 @@ export default function Hero() {
       />
       <Marquee
         className="absolute xl:-bottom-20 mt-10 font-montserrat font-bold text-black uppercase text-3xl bg-white speed-90 py-3 flex gap-0 z-10"
-        speed={100}
+        speed={65}
         autoFill={true}
       >
         <div className="flex gap-3 pl-3 items-center justify-center">

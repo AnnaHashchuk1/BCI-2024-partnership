@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
 import Partners from "@/components/Partners";
+import AboutBEST from "@/components/AboutBest";
 
 import Statistics from "@/components/Statistics";
 import Why from "@/components/Why/Why";
@@ -21,7 +22,7 @@ export default function Home() {
       <Collaboration />
 
       <Roadmap />
-
+      <AboutBEST />
       <Partners />
       
       <Contacts />

@@ -19,12 +19,12 @@ const navigation: MenuItem[] = [
     href: "#about",
   },
   {
-    name: "Співпраця",
-    href: "#cooperation",
-  },
-  {
     name: "Статистика",
     href: "#statistic",
+  },
+  {
+    name: "Співпраця",
+    href: "#cooperation",
   },
   {
     name: "Контакти",
@@ -42,7 +42,7 @@ export default function Header() {
       initial={{ opacity: 0, y: -80 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="z-50 w-full px-6 flex justify-between gap-20 py-[1.5vw] backdrop-blur-sm fixed items-center align-middle"
+      className="z-50 w-full px-6 flex justify-between gap-20 py-[1.5vw] backdrop-blur-sm bg-bci-purple bg-opacity-50 fixed items-center align-middle"
     >
       <div
         onClick={() => {
@@ -58,7 +58,7 @@ export default function Header() {
           className="xl:w-48 w-24"
         />
       </div>
-      <div className=" hidden xl:flex xl:justify-between w-full text-white leading-none">
+      <div className=" hidden xl:flex xl:justify-between w-full mr-[150px] text-white leading-none">
         {navigation.map((nav_item) => (
           <span
             onClick={() => {
@@ -71,13 +71,6 @@ export default function Header() {
           </span>
         ))}
       </div>
-      <Image
-          src="/BESTLogo.svg"
-          alt="logo"
-          height={150}
-          width={100}
-          className="lg:w-48 hidden xl:flex"
-        />
       <Dialog.Root>
         <div className="flex xl:hidden relative top-1">
           <Dialog.Trigger asChild>

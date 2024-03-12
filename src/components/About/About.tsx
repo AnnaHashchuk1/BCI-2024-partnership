@@ -7,5 +7,5 @@ import AboutMonitor from "./AboutMonitor";
 export default function About() {
   const { matches } = useMediaQuery("(max-width: 748px)");
 
-  return <div>{matches ? <AboutMobile /> : <AboutMonitor />}</div>;
+  return <div id="about">{matches ? <AboutMobile /> : <AboutMonitor />}</div>;
 }

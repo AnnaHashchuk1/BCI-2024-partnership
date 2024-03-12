@@ -12,6 +12,8 @@ const config = {
       rotate: {
         '20': '20deg',
         '27': '27deg',
+        '210': '210deg',
+        '240': '240deg',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],

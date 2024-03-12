@@ -40,8 +40,8 @@ export default function Statistics() {
                 className={cn(
                   "flex flex-col col-span-1  font-montserrat gap-2 lg:gap-4 border-l-[24px] p-4",
                   index % 2
-                    ? "bg-bci-purple text-bci-white border-l-bci-white rounded-r-2xl"
-                    : "bg-bci-white text-bci-gray border-l-bci-purple rounded-l-2xl"
+                    ? "bg-bci-purple text-bci-white border-l-bci-white"
+                    : "bg-bci-white text-bci-gray border-l-bci-purple"
                 )}
               >
                 <h4 className="text-3xl xl:text-4xl font-light">
@@ -59,8 +59,8 @@ export default function Statistics() {
                 className={cn(
                   "w-full h-full object-cover col-span-1 ",
                   index % 2
-                    ? "lg:order-first rounded-l-2xl"
-                    : "lg:order-last rounded-r-2xl"
+                    ? "lg:order-first rounded-2xl"
+                    : "lg:order-last rounded-2xl"
                 )}
               />
             </div>
@@ -69,7 +69,7 @@ export default function Statistics() {
       </div>
       <Marquee 
             className="font-montserrat font-bold text-black uppercase text-3xl bg-white speed-90 py-3 flex gap-0 z-10"
-            speed={100}
+            speed={65}
             autoFill={true}
         >
             <div className="flex gap-3 pl-3 items-center justify-center">
