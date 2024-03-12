@@ -3,6 +3,7 @@ import Collaboration from "@/components/Collaboration";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Roadmap from "@/components/Roadmap";
 import Statistics from "@/components/Statistics";
 import Why from "@/components/Why/Why";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Why />
       <Statistics />
       <Collaboration />
+      <Roadmap />
       <Footer />
     </main>
   );
