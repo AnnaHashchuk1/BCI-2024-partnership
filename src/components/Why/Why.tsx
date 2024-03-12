@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./Why.scss";
 import { WhyPoint, WhyPointProps } from "./WhyPoint";
 
-export function Why() {
+export default function Why() {
   const whyArguments: WhyPointProps[] = [
     {
       idx: 1,
@@ -25,7 +25,7 @@ export function Why() {
   ];
 
   return (
-    <div className="relative pb-10 pt-16">
+    <div className="relative pb-20 pt-16">
       <Image
         className="absolute w-auto top-[30%] left-[15%] -rotate-20 z-[-1] opacity-30 overflow-hidden"
         src={"/BgElement.svg"}
@@ -33,7 +33,7 @@ export function Why() {
         width={100}
         height={100}
       />
-      <div className="ml-7">
+      <div className="ml-7 mb-10">
         <h2 className="text-left text-white text-6xl font-bold mb-3">
           Чому саме
         </h2>

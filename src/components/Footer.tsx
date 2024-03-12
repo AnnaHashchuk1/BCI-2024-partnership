@@ -1,10 +1,16 @@
 import Image from "next/image";
-import {
-  LiaFacebook,
-  LiaInstagram,
-  LiaLinkedin,
-  LiaTelegram,
-} from "react-icons/lia";
+import { LiaTelegram } from "react-icons/lia";
+
+interface iSocial {
+  href: string;
+}
+
+const socials: iSocial[] = [
+  { href: "https://t.me/bestlviv" },
+  { href: "https://www.linkedin.com/company/bestlviv/" },
+  { href: "https://www.instagram.com/best_lviv/" },
+  { href: "https://www.facebook.com/BEST.Lviv/" },
+];
 
 export default function Footer() {
   return (
@@ -21,18 +27,13 @@ export default function Footer() {
         </a>
         <div className="font-montserrat font-semibold  text-xl flex justify-center items-center self-center lg:order-3 text-white">2024</div>
         <div className="flex mr-0 mt-4 lg:mt-0 gap-3 place-self-center self-center col-span-2 lg:col-span-1 lg:order-2">
-          <a href="https://t.me/bestlviv">
-            <LiaTelegram className="h-10 w-10 text-white" />
-          </a>
-          <a href="https://www.linkedin.com/company/bestlviv/">
-            <LiaLinkedin className="h-10 w-10 text-white" />
-          </a>
-          <a href="https://www.instagram.com/best_lviv/">
-            <LiaInstagram className="h-10 w-10 text-white" />
-          </a>
-          <a href="https://www.facebook.com/BEST.Lviv/">
-            <LiaFacebook className="h-10 w-10 text-white" />
-          </a>
+          {socials.map((social, index) => {
+            return (
+              <a href={social.href} key={index}>
+                <LiaTelegram className="h-10 w-10 text-white" />
+              </a>
+            );
+          })}
         </div>
       </div>
     </footer>
