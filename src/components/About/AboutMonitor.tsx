@@ -24,7 +24,7 @@ export default function AboutMonitor() {
           width={410}
         />
       </div>
-      <div className="absolute right-10 top-[420px] w-[410px]">
+      <div className="absolute right-10 top-[45%] w-[410px]">
         <BESTValuesItem
           title={BESTValues[1].title}
           description={BESTValues[1].description}
