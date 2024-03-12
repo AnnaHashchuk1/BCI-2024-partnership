@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Collaboration() {
   return (
-    <section id="cooperation" className="min-h-screen relative flex flex-col lg:flex-row mx-9">
+    <section id="cooperation" className="min-h-screen relative flex flex-col lg:flex-row mx-7 mb-28">
         <div className="z-20 lg:w-11/12 self-center lg:self-start font-montserrat">
             <h2 className="w-64 mt-14 pb-4 lg:pb-7 text-left font-semibold text-bci-white text-4xl lg:text-7xl">Умови співпраці</h2>
             <div className="bg-bci-white rounded-3xl lg:rounded-xl lg:border lg:border-bci-light-gray hover:shadow-normal-light hover:scale-105 transition-all duration-500">

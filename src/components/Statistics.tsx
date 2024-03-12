@@ -1,4 +1,5 @@
-import Image from "next/image"
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 export default function Statistics() {
   return (
@@ -39,6 +40,38 @@ export default function Statistics() {
                 className="h-0 w-auto lg:h-auto order-last invisible lg:visible"
            />
       </div>
+      <Marquee 
+            className="font-montserrat font-bold text-black uppercase text-3xl bg-white speed-90 py-3 flex gap-0 z-10"
+            speed={100}
+            autoFill={true}
+        >
+            <div className="flex gap-3 pl-3 items-center justify-center">
+            <p>BEST</p>
+            <Image
+                src="/Star.svg"
+                width={800}
+                height={600}
+                alt=" "
+                className="w-10 h-10"
+            />
+            <p>COMPANY</p>
+            <Image
+                src="/Star.svg"
+                width={800}
+                height={600}
+                alt=" "
+                className="w-10 h-10"
+            />
+            <p>INSIGHT</p>
+            <Image
+                src="/Star.svg"
+                width={800}
+                height={600}
+                alt=" "
+                className="w-10 h-10"
+            />
+            </div>
+        </Marquee>
     </section>
   )
 }
