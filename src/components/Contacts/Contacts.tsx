@@ -23,7 +23,7 @@ export default function Contacts() {
     <div className="relative my-[60px] w-[100%] overflow-hidden">
       <div className="flex flex-wrap justify-center gap-8 md:gap-[100px] items-start">
         <div className="flex flex-col justify-center items-center w-[100%] md:w-[30%]">
-          <div className="font-montserrat font-bold text-[32px] md:text-[85px] text-center md:text-left text-white mb-10">
+          <div className="font-montserrat font-bold text-[32px] md:text-[85px] text-center md:text-left text-white mb-3 md:mb-10">
             Контакти
           </div>
           <div>
