@@ -8,22 +8,22 @@ export default function Contacts() {
       name: "Катерина Зінзура",
       number: "+380 50 76 47 202",
       email: "kateryna.zinzura@best-eu.org",
-      imgSrc: "https://picsum.photos/547/540",
+      imgSrc: "/Katya.png",
     },
     {
       position: "Відповідальний за Корпоративні Зв'язки",
       name: "Сергій Комарин",
       number: "+380 95 03 20 861",
       email: "sergiy.komaryn@best-eu.org",
-      imgSrc: "https://picsum.photos/547/540",
+      imgSrc: "/Sergiy.png",
     },
   ];
 
   return (
-    <div className="relative my-[60px] w-[100%] overflow-hidden" id="contacts">
+    <div id="contacts" className="relative my-[60px] w-[100%] overflow-hidden">
       <div className="flex flex-wrap justify-center gap-8 md:gap-[100px] items-start">
         <div className="flex flex-col justify-center items-center w-[100%] md:w-[30%]">
-          <div className="font-montserrat font-bold text-[32px] md:text-[80px] text-center md:text-left text-white mb-3 md:mb-10">
+          <div className="font-montserrat font-bold text-[32px] md:text-[85px] text-center md:text-left text-white mb-10">
             Контакти
           </div>
           <div>

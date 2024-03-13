@@ -55,7 +55,7 @@ const roadmapData: RoadmapData[] = [
   {
     key: 8,
     row: 2,
-    text: "Фідбек",
+    text: "Фідбек щодо проведення проєкту",
   },
   {
     key: 9,
