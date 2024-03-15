@@ -29,7 +29,9 @@ export default function ContactsItem({ teammate }: ContactsItemProps) {
         {teammate.name === Teammate.KATYA && (
           <div className="p-3 text-sm md:text-xl text-bci-gray">
             <p>{teammate.name}</p>
-            <p>{teammate.number}</p>
+            <a href={`tel:${teammate.email}`}>
+              <p>{teammate.number}</p>
+            </a>
             <a className="underline" href={`mailto:${teammate.email}`}>
               {teammate.email}
             </a>
@@ -47,7 +49,9 @@ export default function ContactsItem({ teammate }: ContactsItemProps) {
         {teammate.name === Teammate.SERHIY && (
           <div className="p-3 text-sm md:text-xl text-bci-gray">
             <p>{teammate.name}</p>
-            <p>{teammate.number}</p>
+            <a href={`tel:${teammate.email}`}>
+              <p>{teammate.number}</p>
+            </a>
             <a className="underline" href={`mailto:${teammate.email}`}>
               {teammate.email}
             </a>
