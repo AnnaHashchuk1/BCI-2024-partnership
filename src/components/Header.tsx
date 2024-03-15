@@ -55,6 +55,7 @@ export default function Header() {
           alt="logo"
           height={150}
           width={100}
+          draggable="false"
           className="xl:w-48 w-24"
         />
       </div>

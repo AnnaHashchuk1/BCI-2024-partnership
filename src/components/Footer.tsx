@@ -16,6 +16,7 @@ export default function Footer() {
             width={110}
             height={50}
             alt="best logo"
+            draggable="false"
             className="h-14 lg:h-16 place-self-center hidden lg:flex"
           />
         </a>

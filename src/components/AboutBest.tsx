@@ -20,6 +20,7 @@ export default function AboutBEST(){
                         <Image
                             src="/BESTLogo.svg"
                             alt="logo"
+                            draggable="false"
                             height={150}
                             width={100}
                             className="hidden md:flex w-64"
@@ -42,6 +43,7 @@ export default function AboutBEST(){
                     <Image
                         src="/BESTLogo.svg"
                         alt="logo"
+                        draggable="false"
                         height={150}
                         width={100}
                         className="md:hidden flex w-52 "
@@ -53,6 +55,7 @@ export default function AboutBEST(){
                 alt=" "
                 height={1500}
                 width={1000}
+                draggable="false"
                 className="absolute right-0 hidden xl:flex w-52 self-center h-4/6 z-20"
             />
             <Image
@@ -60,6 +63,7 @@ export default function AboutBEST(){
                 alt=" "
                 height={1500}
                 width={1000}
+                draggable="false"
                 className="absolute left-0 hidden xl:flex w-52 self-center h-4/6 z-20"
             />
             <Image
@@ -67,6 +71,7 @@ export default function AboutBEST(){
                 width={800}
                 height={600}
                 alt=" "
+                draggable="false"
                 className="absolute w-auto self-center rotate-210 z-0 opacity-30 top-24 -right-64 md:scale-90 lg:scale-100"
             />
             <Image
@@ -74,6 +79,7 @@ export default function AboutBEST(){
                 width={800}
                 height={600}
                 alt=" "
+                draggable="false"
                 className="absolute w-auto self-center rotate-45 z-0 opacity-30 bottom-8 -left-48 md:scale-90 lg:scale-100"
             />
         </section>

@@ -129,6 +129,7 @@ const BigBox = ({ text, className = "", row }: BoxProps) => {
           height={20}
           src="/ArrowLarge.svg"
           alt="arrow right"
+          draggable="false"
           className="h-full object-contain w-full"
         />
       ) : row === 1 ? (
@@ -137,6 +138,7 @@ const BigBox = ({ text, className = "", row }: BoxProps) => {
           height={20}
           src="/ArrowRight.svg"
           alt="arrow right"
+          draggable="false"
           className="w-full"
         />
       ) : (
@@ -145,6 +147,7 @@ const BigBox = ({ text, className = "", row }: BoxProps) => {
           height={20}
           src="/ArrowLeft.svg"
           alt="arrow right"
+          draggable="false"
           className="w-full"
         />
       )}

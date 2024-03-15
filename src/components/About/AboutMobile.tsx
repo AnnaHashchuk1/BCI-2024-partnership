@@ -32,6 +32,7 @@ export default function AboutMobile() {
           className="mx-auto"
           src="/AboutMobile.png"
           alt=" "
+          draggable="false"
           width={283}
           height={289}
         />

@@ -44,7 +44,7 @@ export default function ContactsItem({ teammate }: ContactsItemProps) {
               : "rounded-t-2xl"
           }`}
         >
-          <img src={teammate.imgSrc} alt="bcier" width={500} height={1} />
+          <img src={teammate.imgSrc} draggable="false" alt="bcier" width={500} height={1} />
         </div>
         {teammate.name === Teammate.SERHIY && (
           <div className="p-3 text-sm md:text-xl text-bci-gray">

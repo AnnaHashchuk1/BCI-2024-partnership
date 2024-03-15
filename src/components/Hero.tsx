@@ -24,6 +24,7 @@ export default function Hero() {
                 width={449}
                 height={313}
                 alt=" "
+                draggable="false"
                 className="rounded-xl hover:scale-105 transition-all duration-500"
                 key={index}
               />
@@ -35,6 +36,7 @@ export default function Hero() {
         width={800}
         height={600}
         alt=" "
+        draggable="false"
         className="absolute w-auto self-center rotate-20 z-0 opacity-30 top-48 overflow-hidden"
       />
       <Marquee
@@ -49,6 +51,7 @@ export default function Hero() {
             width={800}
             height={600}
             alt=" "
+            draggable="false"
             className="w-10 h-10"
           />
           <p>COMPANY</p>
@@ -57,6 +60,7 @@ export default function Hero() {
             width={800}
             height={600}
             alt=" "
+            draggable="false"
             className="w-10 h-10"
           />
           <p>INSIGHT</p>
@@ -65,6 +69,7 @@ export default function Hero() {
             width={800}
             height={600}
             alt=" "
+            draggable="false"
             className="w-10 h-10"
           />
         </div>

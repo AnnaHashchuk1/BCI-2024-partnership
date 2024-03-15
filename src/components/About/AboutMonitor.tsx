@@ -32,7 +32,7 @@ export default function AboutMonitor() {
         />
       </div>
       <div className="flex justify-end mr-24">
-        <Image src={"/AboutMonitor.png"} alt=" " width={875} height={580} />
+        <Image src={"/AboutMonitor.png"} alt=" " draggable="false" width={875} height={580} />
       </div>
       <div className="w-[580px] my-5">
         <div className="text-[64px] text-white font-montserrat font-bold ">

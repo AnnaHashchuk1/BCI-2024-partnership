@@ -18,7 +18,7 @@ export default function Partners() {
       <div className="flex flex-wrap justify-center items-center gap-24 mx-10">
         {partnersLogos.map((logoSrc, i) => (
           <div key={i}>
-            <Image src={logoSrc} alt={`skuf${i}`} height={250} width={250} />
+            <Image src={logoSrc} alt={`${i}`} draggable="false" height={250} width={250} />
           </div>
         ))}
       </div>

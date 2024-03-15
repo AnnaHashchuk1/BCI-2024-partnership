@@ -56,6 +56,7 @@ export default function Statistics() {
                 height={187}
                 src={statistic.img}
                 alt={statistic.img}
+                draggable="false"
                 className={cn(
                   "w-full h-full object-cover col-span-1 ",
                   index % 2
@@ -79,6 +80,7 @@ export default function Statistics() {
                 width={800}
                 height={600}
                 alt=" "
+                draggable="false"
                 className="w-10 h-10"
             />
             <p>COMPANY</p>
@@ -87,6 +89,7 @@ export default function Statistics() {
                 width={800}
                 height={600}
                 alt=" "
+                draggable="false"
                 className="w-10 h-10"
             />
             <p>INSIGHT</p>
@@ -95,6 +98,7 @@ export default function Statistics() {
                 width={800}
                 height={600}
                 alt=" "
+                draggable="false"
                 className="w-10 h-10"
             />
             </div>
