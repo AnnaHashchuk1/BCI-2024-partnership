@@ -33,7 +33,7 @@ const steps = [
     status: "upcoming",
   },
   {
-    name: "Фідбек",
+    name: "Фідбек щодо проведення проєкту",
     description: "Кінець",
     status: "upcoming",
   },

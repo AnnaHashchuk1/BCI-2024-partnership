@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function AboutBEST(){
     return(
         <section className="min-h-screen relative w-full flex justify-center">
-            <div className="grid grid-col mx-5 max-w-md md:max-w-3xl gap-10">
-                <h1 className="text-4xl lg:text-7xl font-montserrat font-bold text-white self-center text-center my-5 lg:my-10">Що таке BEST Lviv?</h1>
+            <div className="grid grid-col mx-5 max-w-md md:max-w-3xl gap-6 lg:gap-10">
+                <h1 className="text-4xl lg:text-7xl font-montserrat font-bold text-white self-center text-center mt-10">Що таке BEST Lviv?</h1>
                 <div className="w-full border border-white rounded-xl bg-bci-purple p-10 z-20">
                     <p className="font-montserrat text-md lg:text-lg text-white">
                         <strong>
@@ -16,13 +16,15 @@ export default function AboutBEST(){
                 </div>
                 <div className="flex flex-row justify-center md:justify-between px-4 md:px-16 ">
                     <div>
-                    <Image
-                        src="/BESTLogo.svg"
-                        alt="logo"
-                        height={150}
-                        width={100}
-                        className="hidden md:flex w-64"
-                    />
+                    <a href="https://best-lviv.org.ua/">
+                        <Image
+                            src="/BESTLogo.svg"
+                            alt="logo"
+                            height={150}
+                            width={100}
+                            className="hidden md:flex w-64"
+                        />
+                    </a>
                     </div>
                     <div className="grid grid-col font-montserrat text-3xl gap-4 lg:gap-8 text-white">
                         <p><strong>35</strong> роки досвіду</p>

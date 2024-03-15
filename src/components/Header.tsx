@@ -42,7 +42,7 @@ export default function Header() {
       initial={{ opacity: 0, y: -80 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="z-50 w-full px-6 flex justify-between gap-20 py-[1.5vw] backdrop-blur-sm bg-bci-purple bg-opacity-50 fixed items-center align-middle"
+      className="z-50 w-full px-6 flex justify-between gap-20 pt-[1.5vw] pb-[2.75vw] md:py-[1.5vw] backdrop-blur-sm bg-bci-purple bg-opacity-50 fixed items-center align-middle"
     >
       <div
         onClick={() => {
