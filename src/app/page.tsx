@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import Roadmap from "@/components/Roadmap";
 import Partners from "@/components/Partners";
 import AboutBEST from "@/components/AboutBest";
+import Banner from "@/components/Banner";
 
 import Statistics from "@/components/Statistics";
 import Why from "@/components/Why/Why";
@@ -16,9 +17,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden">
       <Header />
       <Hero />
+      <Banner />
       <About />
       <Why />
       <Statistics />
+      <Banner />
       <Collaboration />
 
       <Roadmap />
