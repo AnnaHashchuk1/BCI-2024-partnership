@@ -35,7 +35,7 @@ export default function Contacts() {
       <Image
         className="absolute top-[20%] right-[-10%] md:right-[15%] z-[-1] rotate-[-118deg] opacity-30"
         src="/BgElement.svg"
-        alt="wtf"
+        alt=" "
         width={600}
         height={850}
       />

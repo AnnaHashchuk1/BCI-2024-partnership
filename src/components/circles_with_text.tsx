@@ -28,7 +28,7 @@ const steps = [
     status: "upcoming",
   },
   {
-    name: "Пост-проєкнтний звіт",
+    name: "Пост-проєктний звіт",
     status: "upcoming",
   },
   {
