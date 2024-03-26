@@ -9,9 +9,9 @@ interface iCollabData {
 
 const collabData: iCollabData[] = [
   {
-    title: "Участь У Подкасті",
+    title: "Участь у Подкасті",
     description:
-      "Пропонуємо зняти пост-проєктний подкаст з представником Вашої компанії. Наша команда потурбується про можнтаж та зйомку, від Вас потрібно лише надання спікера",
+      "Пропонуємо зняти пост-проєктний подкаст з представником Вашої компанії. Наша команда потурбується про монтаж та зйомку, від Вас потрібно лише надання спікера",
     className: "order-1 col-span-2",
   },
   {
@@ -34,7 +34,7 @@ const collabData: iCollabData[] = [
   {
     className: "order-6 lg:order-5 col-span-1",
     title: "Додаткова промоція в Instagram",
-    description: "Персоналізований допис в Insagram BEST Lviv",
+    description: "Персоналізований допис в Instagram-профілі BEST Lviv",
   },
   {
     className: "order-7 lg:order-6 col-span-2 ",
@@ -46,7 +46,7 @@ const collabData: iCollabData[] = [
     className: "order-2 lg:order-7 col-span-2",
     title: "Treasure Hunt",
     description:
-      "Ви надаєте нагороди для учасників, які ми заховаємо на території Львівської політехніки. Підказки будуть розміщені у Instagram-акаунті BEST Lviv з посиланням на Вашу сторінку",
+      "Ви надаєте нагороди для учасників, які ми заховаємо на території Львівської політехніки. Підказки будуть розміщені у Instagram-профілі BEST Lviv з посиланням на Вашу сторінку",
   },
 ];
 
@@ -78,14 +78,14 @@ interface iSellingPoint {
 
 const sellingPointsData = [
   {
-    title: "Логотип На Сайті BEST Lviv",
+    title: "Логотип На Сайті Проєкту BEST Company Insight",
   },
   {
-    title: "Відеорозповідь Про Компанію В Інстаграм  BEST Lviv",
+    title: "Відеорозповідь Про Компанію В Instagram-профілі BEST Lviv",
   },
   {
     title:
-      "Згадка Компанії В Дописі Про Партнерів У Instagram-Профілі @best_lviv",
+      "Згадка Компанії В Дописі Про Партнерів У Instagram-профілі @best_lviv",
   },
   {
     title: "Пост Про Компанію В Telegram-Каналі BEST Lviv Students",
