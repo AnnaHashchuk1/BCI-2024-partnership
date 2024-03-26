@@ -149,7 +149,7 @@ export default function Collaboration() {
         width={800}
         height={600}
         alt=" "
-        className="absolute w-auto self-center -rotate-27 z-0 opacity-30 top-96 mt-14 lg:mt-8 lg:left-60 scale-200 lg:scale-140 overflow-hidden"
+        className="absolute w-auto self-center -rotate-27 z-0 opacity-20 top-96 mt-14 lg:mt-8 lg:left-60 scale-200 lg:scale-140 overflow-hidden"
       />
     </section>
   );

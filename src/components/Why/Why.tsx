@@ -27,7 +27,7 @@ export default function Why() {
   return (
     <div className="relative pb-20 pt-16">
       <Image
-        className="absolute w-auto top-[30%] left-[15%] -rotate-20 z-[-1] opacity-30 overflow-hidden"
+        className="absolute w-auto top-[30%] left-[15%] -rotate-20 z-[-1] opacity-20 overflow-hidden"
         src={"/BgElement.svg"}
         alt="why"
         width={100}

@@ -42,7 +42,7 @@ export default function Hero() {
         height={600}
         alt=" "
         draggable="false"
-        className="absolute w-auto self-center rotate-20 z-0 opacity-30 top-48 overflow-hidden"
+        className="absolute w-auto self-center rotate-20 z-0 opacity-20 top-48 overflow-hidden"
       />
     </section>
   );

@@ -1,6 +1,5 @@
 import { cn } from "@/utils/mergeTw";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
 
 export default function Statistics() {
   const statisticsData = [
@@ -25,8 +24,8 @@ export default function Statistics() {
   ];
 
   return (
-    <section id="statistic" className="w-full min-h-screen bg-bci-gray flex flex-col items-center gap-8">
-      <h2 className="text-bci-white text-5xl font-montserrat font-bold mt-32 lg:mt-44 lg:text-6xl px-6">
+    <section id="statistic" className="w-full h-auto bg-bci-gray flex flex-col items-center gap-8">
+      <h2 className="text-bci-white text-5xl font-montserrat font-bold mt-16 lg:mt-20 lg:text-6xl px-6">
         Попередні метрики BEST’у
       </h2>
       <div className="flex flex-col container mx-auto justify-center gap-6 mb-10 lg:grid lg:mb-24 grid-cols-2 px-6">

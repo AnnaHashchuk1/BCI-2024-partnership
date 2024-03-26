@@ -16,7 +16,7 @@ enum Teammate {
 export default function ContactsItem({ teammate }: ContactsItemProps) {
   return (
     <div
-      className={`flex flex-col ${
+      className={`flex flex-col max-w-[500px] ${
         teammate.name === Teammate.SERHIY ? "md:flex-col-reverse md:mt-8" : ""
       } justify-center font-montserrat w-[275px] ${
         teammate.name === Teammate.KATYA ? "md:w-[100%]" : "md:w-[30%]"
