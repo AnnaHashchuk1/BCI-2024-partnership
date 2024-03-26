@@ -9,8 +9,7 @@ export default function AboutBEST(){
                     <p className="font-montserrat text-md lg:text-lg text-white">
                         <strong>
                             BEST (Board of European Students of Technology)  
-                        </strong>
-                     – неприбуткова громадська організація, яка об’єднує студентів технічних спеціальностей 
+                        </strong> – неприбуткова громадська організація, яка об’єднує студентів технічних спеціальностей 
                     для забезпечення обміну знаннями та співпраці компаній, університетів та студентів Європи.
                     </p>
                 </div>
@@ -28,7 +27,7 @@ export default function AboutBEST(){
                     </a>
                     </div>
                     <div className="grid grid-col font-montserrat text-3xl gap-4 lg:gap-8 text-white">
-                        <p><strong>35</strong> роки досвіду</p>
+                        <p><strong>35</strong> років досвіду</p>
                         <p><strong>85</strong> осередків</p>
                         <p><strong>30</strong> країн</p>
                     </div>

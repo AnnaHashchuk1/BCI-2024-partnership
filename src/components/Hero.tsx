@@ -7,15 +7,20 @@ export default function Hero() {
       className="min-h-screen relative w-full flex flex-col justify-center items-center mt-10"
       id="top"
     >
-      <h3 className="text-7xl md:text-8xl font-bold font-montserrat text-bci-white text-left lg:text-center m-20 z-20">
-        BEST Company Insight
-      </h3>
+      <div className="font-montserrat text-bci-white text-left lg:text-center mx-20 mt-20 z-20">
+        <h3 className="text-7xl md:text-8xl font-bold mb-5">
+          BEST Company Insight
+        </h3>
+        <h3 className="text-5xl md:text-6xl font-bold mb-4">
+          22-26 квітня
+        </h3>
+      </div>
       <Marquee
-        className="speed-90 py-3 flex gap-6 z-10 mb-8"
+        className="speed-90 py-3 flex z-10 mb-8"
         speed={7}
         autoFill={true}
       >
-        <div className="flex flex-row justify-center items-center gap-6 z-20">
+        <div className="flex flex-row justify-center items-center mr-6 gap-6 z-20">
           {Array(4)
             .fill(0)
             .map((_, index) => (
