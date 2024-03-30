@@ -24,7 +24,7 @@ const steps = [
     status: "upcoming",
   },
   {
-    name: "Візит учасників на офіс компінії",
+    name: "Візит учасників на офіс компанії",
     status: "upcoming",
   },
   {
