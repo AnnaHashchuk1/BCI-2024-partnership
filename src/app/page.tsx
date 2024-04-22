@@ -1,3 +1,4 @@
+"use client";
 import About from "@/components/About/About";
 import Collaboration from "@/components/Collaboration";
 import Contacts from "@/components/Contacts/Contacts";
